@@ -5,14 +5,15 @@ const Search = () => {
     const [query, setQuery] = useState("");
     data.filter(post => {
     if (query === '') {
-      return post;
+     return post;
     } else if (post.name.toLowerCase().includes(query.toLowerCase())) {
       return post;
     }})
+   
         return (
           <div>
             <input
-              placeholder="search.."
+              placeholder="search.." className="search"
               onChange={(event) => setQuery(event.target.value)}
             />
             
