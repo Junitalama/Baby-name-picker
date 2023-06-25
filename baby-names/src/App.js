@@ -1,13 +1,13 @@
 import React from "react";
-import Search from "./SearchBar";
 import BabyNames from "./BabyNames";
 import "./App.css";
+import Search from "./SearchBar";
 
 function App() {
   return (
     <div className="App">
       <Search />
-      <BabyNames />
+  <BabyNames />
     </div>
   );
 }
