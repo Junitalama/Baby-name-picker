@@ -1,23 +1,37 @@
 .App {
-  text-align: center;
+text-align: center;
+background-color:azure;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.baby-names {
+  display: flex;
+  flex-wrap: wrap;
+}
 .f{
   color: brown;
   margin: 10px;
+  border:1px solid black;
+  padding:5px;
 }
 
 .m{
   color: blueviolet;
   margin:10px;
-  display: inline;
+  border:1px solid black;
+  padding:5px;
 }
 
+
+.search {
+  margin-bottom: 20px;
+  border: 4px solid green;
+  color:blueviolet;
+  padding :10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
