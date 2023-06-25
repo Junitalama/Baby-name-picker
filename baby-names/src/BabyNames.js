@@ -4,11 +4,18 @@ import data from "./babyNamesData.json";
 function BabyNames() {
   data.sort((a, b) => a.name.localeCompare(b.name));
 
-  return (
-    <div className="App">
+  return (<div className="baby-names">
       {data.map((element) => (
         <span className={element.sex}>{element.name} </span>
+       
+      
+
+
+
+        
       ))}
+     
+      
     </div>
   );
 }
