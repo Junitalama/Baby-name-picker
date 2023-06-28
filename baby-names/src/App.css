@@ -10,16 +10,17 @@ background-color:azure;
 .baby-names {
   display: flex;
   flex-wrap: wrap;
+  border: 4px solid gray;
 }
 .f{
-  color: brown;
+  background-color:pink;
   margin: 10px;
   border:1px solid black;
   padding:5px;
 }
 
 .m{
-  color: blueviolet;
+  background-color: blueviolet;
   margin:10px;
   border:1px solid black;
   padding:5px;
